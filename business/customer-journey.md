@@ -1,0 +1,11 @@
+```markdown
+# Customer Journey Map – forecast‑loom
+
+| Phase   | Trigger Event | Friction Points | User Emotions | Opportunities to Delight | Key Metric |
+|---------|----------------|-----------------|---------------|--------------------------|------------|
+| **Aware** | • Data‑science team reads a blog post or sees a webinar on “scalable time‑series forecasting.” <br>• LinkedIn ad targeting ML engineers. | • Over‑abundance of generic forecasting tools. <br>• Lack of clear differentiation. | Curious, overwhelmed | • **Micro‑content**: 1‑min explainer video + 2‑slide deck highlighting “handles 10M+ rows in 5 min.” <br>• **Social proof**: 5‑star reviews from 3 high‑profile companies. | **Impressions** (unique visitors to landing page) |
+| **Consider** | • Team evaluates alternatives after a data‑science sprint. <br>• Receives a request from product owner to reduce forecast latency. | • Complex pricing model. <br>• Uncertainty about integration effort with existing stack (Spark, Pandas, Airflow). | Skeptical, hopeful | • **Live demo sandbox**: 30‑min interactive session with pre‑loaded dataset. <br>• **ROI calculator**: shows cost savings vs. current manual forecasting. | **Demo sign‑ups** (number of users who book a demo) |
+| **Try** | • Team signs up for a 14‑day free trial. | • Installation friction (Docker vs. local). <br>• Limited documentation for advanced use cases. | Frustrated, determined | • **One‑click deploy** (GitHub Actions template). <br>• **In‑app guided tour** that auto‑generates a sample pipeline. | **Trial activation rate** (percentage of demo sign‑ups that start a trial) |
+| **Adopt** | • Successful pilot shows 30% faster forecast generation. | • Need to scale to production (CI/CD, monitoring). <br>• Licensing cost justification. | Confident, satisfied | • **Enterprise onboarding kit**: pre‑built Airflow DAGs, Grafana dashboards, and SLAs. <br>• **Dedicated success manager** for first 90 days. | **Conversion rate** (trial to paid) |
+| **Expand** | • New product line requires multi‑region forecasting. | • Data governance & compliance concerns. <br>• Feature requests (e.g., anomaly detection). | Loyal, proactive | • **Marketplace extensions**: plug‑ins for Snowflake, BigQuery, and Azure ML. <br>• **Annual roadmap webinar** with feature voting. | **Expansion revenue** (add‑on purchases, upsells) |
+```
